@@ -22,7 +22,7 @@ public class Andersentask2Application {
 	}
 
 
-	@GetMapping("/hello")
+	@GetMapping("/")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name1) {
 		return String.format("Hello %s!", name1);}
 
